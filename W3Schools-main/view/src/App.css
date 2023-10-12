@@ -51,19 +51,7 @@ body {
   margin-bottom: 16px;
 }
 
-.navbar .right-items span {
-  position: absolute;
-  padding: 3px 10px;
-  margin-left: 3px;
-  font-size: 11px;
-  line-height: 1.5;
-  font-weight: 700;
-  border-radius: 25px;
-  border: 1px solid black;
-  margin-top: 25px;
-  margin-left: 200px;
-  background-color: #fff;
-}
+
 
 .navbar .right-items i {
   font-size: 18px;
@@ -95,7 +83,9 @@ body {
 .nav2{
   color: white;
   text-decoration: none;
-  padding-left:5px;
+  padding: 5px;
+  margin-left: 10px;
+  text-align: center;
 }
 .nav2:hover{
   background-color: rgb(1, 4, 8);
@@ -106,8 +96,20 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  background-image: url('./imgs/background_in_space.gif');
+  position: relative;
 }
 
+a:hover{
+  cursor: pointer;
+}
+
+.astro{
+  position: absolute;
+  height: 200px;
+  top: 10%;
+  left: 75%;
+}
 .landing h1 {
   font-size: 70px;
   color: #fff;
@@ -166,6 +168,14 @@ body {
   cursor: pointer;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.search-bar button:hover{
+  background-image: linear-gradient(rgba(46, 46, 46, 0.3) 0 0);
+}
+.okkk {
+  width: 100%;
+
 }
 
 .landing img {

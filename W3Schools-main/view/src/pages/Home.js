@@ -165,12 +165,12 @@ export default class Home extends Component {
         {
           title: 'C',
           backgroundColor: '#FFC0C7',
-          width: 616
+          width: 916
         },
         {
           title: 'C#',
           backgroundColor: '#FFF4A3',
-          width: 616
+          width: 266
         },
         {
           title: 'R',
@@ -302,46 +302,7 @@ export default class Home extends Component {
           backgroundColor: '#F3ECEA',
           width: 266
         },
-        {
-          title: 'TypeScript',
-          backgroundColor: '#D9EEE1',
-          width: 266
-        },
-        {
-          title: 'Django',
-          backgroundColor: '#96D4D4',
-          width: 266
-        },
-        {
-          title: 'Excel',
-          backgroundColor: '#96D4D4',
-          width: 616
-        },
-        {
-          title: 'Google Sheets',
-          backgroundColor: '#FFF4A3',
-          width: 616
-        },
-        {
-          title: 'Machine Learning',
-          backgroundColor: '#FFC0C7',
-          width: 616
-        },
-        {
-          title: 'Artificial Intelligence',
-          backgroundColor: '#F3ECEA',
-          width: 616
-        },
-        {
-          title: 'Statistics',
-          backgroundColor: '#F3ECEA',
-          width: 616
-        },
-        {
-          title: 'Data Science',
-          backgroundColor: '#D9EEE1',
-          width: 616
-        },
+        
       ]
     }
   }
